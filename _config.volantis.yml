@@ -1,0 +1,600 @@
+use_cdn: false
+info:
+    theme_name: Volantis
+    theme_version: 4.3.1
+    theme_docs: 'https://cxvh.cc'
+    theme_repo: 'https://github.com/code-ba/rss-volantis'
+    cdn:
+        js: null
+        css:
+            first: null
+            style: null
+navbar:
+    visiable: auto
+    logo:
+        img: 'https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg'
+        icon: null
+        title: BARAN的订阅🔥🔥🔥
+    menu:
+    search: Search...
+cover:
+    height_scheme: half
+    layout_scheme: dock
+    display:
+        home: false
+        archive: true
+        others: false
+    background: 'https://cxvh.com/img/bg.webp'
+    logo: null
+    title: Volantis
+    subtitle: ""
+    search: 'A Wonderful Theme for Hexo'
+pages:
+    friends:
+        layout_scheme: simple
+article:
+    preview:
+        scheme: landscape
+        pin_icon: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg'
+        auto_title: true
+        auto_excerpt: true
+        line_style: solid
+        author: false
+        readmore: auto
+    body:
+        top_meta:
+            - author
+            - category
+            - date
+            - counter
+        footer_widget:
+            references:
+                title: 参考资料
+                icon: 'fas fa-quote-left'
+            related_posts:
+                enable: false
+                title: 相关文章
+                icon: 'fas fa-bookmark'
+                max_count: 5
+                placeholder_img: 'https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture'
+            copyright:
+                enable: true
+                permalink: 本文永久链接是：
+                content:
+                    - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
+                    - permalink
+            donate:
+                enable: false
+                images:
+                    - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png'
+                    - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png'
+        bottom_meta:
+            - updated
+            - tags
+            - share
+        meta_library:
+            author:
+                avatar: null
+                name: 请设置文章作者
+                url: /
+            date:
+                icon: 'fas fa-calendar-alt'
+                title: 发布于：
+                format: ll
+            updated:
+                icon: 'fas fa-edit'
+                title: 更新于：
+                format: ll
+            category:
+                icon: 'fas fa-folder-open'
+            counter:
+                icon: 'fas fa-eye'
+                unit: 次浏览
+            valinecount:
+                icon: 'fas fa-comment-dots'
+                desc: ""
+            walinecount:
+                icon: 'fas fa-comment-dots'
+                desc: ""
+            wordcount:
+                icon_wordcount: 'fas fa-keyboard'
+                icon_duration: 'fas fa-hourglass-half'
+            tags:
+                icon: 'fas fa-hashtag'
+            share:
+                -
+                    id: qq
+                    img: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png'
+                -
+                    id: qzone
+                    img: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png'
+                -
+                    id: weibo
+                    img: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png'
+                -
+                    id: null
+                    img: null
+                -
+                    id: null
+                    img: null
+comments:
+    title: '<i class=''fas fa-comments''></i> 评论'
+    subtitle: null
+    service: # 启用评论 valine
+    valine:
+        path: null
+        placeholder: 快来评论吧~
+        appId: null
+        appKey: null
+        meta:
+            - nick
+            - mail
+            - link
+        requiredFields:
+            - nick
+            - mail
+        enableQQ: true
+        recordIP: false
+        avatar: robohash
+        pageSize: 10
+        lang: zh-cn
+        highlight: true
+        mathJax: false
+    minivaline:
+        js: 'https://cdn.jsdelivr.net/npm/minivaline@latest'
+        path: null
+        placeholder: 快来评论吧~
+        backend: waline
+        serverURL: 'https://waline.vercel.app'
+    disqus:
+        shortname: null
+        autoload: false
+        path: null
+    disqusjs:
+        path: null
+    gitalk:
+        clientID: null
+        clientSecret: null
+        repo: null
+        owner: null
+        admin: null
+        path: null
+    vssue:
+        owner: null
+        repo: null
+        clientId: null
+        clientSecret: null
+    livere:
+        uid: null
+    isso:
+        url: 'https://example.com/(path/)'
+        src: 'https://example.com/(path/)js/embed.min.js'
+    hashover:
+        src: 'https://example.com/(path/)comments.php'
+    twikoo:
+        js: 'https://cdn.jsdelivr.net/npm/twikoo@latest'
+        path: null
+        envId: xxxxxxxxxxxxxxx
+    waline:
+        js: 'https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'
+        path: null
+        placeholder: 快来评论吧~
+        imageHosting: 'https://7bu.top/api/upload'
+        meta:
+            - nick
+            - mail
+            - link
+        requiredFields:
+            - nick
+            - mail
+        serverURL: xxxxxxxxxxxxxxx
+        avatar: robohash
+        pageSize: 10
+        lang: zh-CN
+sidebar:
+    for_page:
+        # - blogger
+        - category
+        # - tagcloud
+        # - donate
+    for_post:
+        - toc
+    widget_library:
+        toc:
+            class: toc
+            display:
+                - desktop
+                - mobile
+            header:
+                icon: 'fas fa-list'
+                title: 本文目录
+            list_number: false
+            min_depth: 2
+            max_depth: 5
+        category:
+            class: category
+            display:
+                - desktop
+            header:
+                icon: 'fas fa-folder-open'
+                title: 订阅分类
+                url: /
+        # donate:
+        #     class: qrcode
+        #     display:
+        #         # - desktop
+        #         # - mobile
+        #     height: 64px
+        #     images:
+                # - 'https://cdn.jsdelivr.net/gh/cxvh/static@main/img/20210218193037.png'
+                # - 'https://cdn.jsdelivr.net/gh/cxvh/static@main/img/20210218192738.jpg'
+        webinfo:
+            class: webinfo
+            display:
+                - desktop
+            header:
+                icon: 'fas fa-award'
+                title: 站点信息
+            type:
+                article:
+                    enable: true
+                    text: 文章数目：
+                    unit: 篇
+                runtime:
+                    enable: true
+                    data: 2020/01/01
+                    text: 已运行时间：
+                    unit: 天
+                wordcount:
+                    enable: true
+                    text: 本站总字数：
+                    unit: 字
+                visitcounter:
+                    service: leancloud
+                    siteuv: {enable: true, text: 本站访客数：, unit: 人}
+                    sitepv: {enable: true, text: 本站总访问量：, unit: 次}
+                lastupd:
+                    enable: true
+                    friendlyShow: true
+                    text: 最后活动时间：
+                    unit: 日
+tag_plugins:
+    note:
+        icon: \f054
+        color: ""
+        iconfont: 'Font Awesome 5 Free'
+    checkbox:
+        interactive: false
+        color: ""
+    link:
+        placeholder: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/256/safari.png'
+site_footer:
+    layout:
+        - aplayer
+        - social
+        - analytics
+        - info
+        - copyright
+    social:
+        -
+            icon: null
+            url: null
+        -
+            img: null
+            url: null
+        -
+            avatar: null
+            url: null
+    source: 'https://github.com/volantis-x/volantis-docs/'
+    analytics: "<span id=\"lc-sv\">本站总访问量为 <span id='number'><i class=\"fas fa-circle-notch fa-spin fa-fw\" aria-hidden=\"true\"></i></span> 次</span> <span id=\"lc-uv\">访客数为 <span id='number'><i class=\"fas fa-circle-notch fa-spin fa-fw\" aria-hidden=\"true\"></i></span> 人</span>\n"
+    copyright: 'Copyright © 2021 [Baran](mailto:507570355@qq.com)'
+    br: '<br>'
+plugins:
+    jquery: 'https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js'
+    fontawesome: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css'
+    preload:
+        enable: true
+        service: flying_pages
+        instant_page: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js'
+        flying_pages: 'https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js'
+    lazyload:
+        enable: true
+        js: 'https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js'
+        onlypost: false
+        loadingImg: null
+        blurIn: true
+    highlightjs:
+        enable: null
+        js: 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js'
+        css: 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/solarized-light.min.css'
+    scrollreveal:
+        enable: null
+        js: 'https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js'
+        distance: 32px
+        duration: 800
+        interval: 20
+        scale: 1
+    clipboard:
+        enable: null
+        js: 'https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js'
+    wordcount:
+        enable: null
+    nodewaves:
+        enable: null
+        css: 'https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css'
+        js: 'https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js'
+    fontawesome_animation:
+        enable: null
+        css: 'https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css'
+    comment_typing:
+        enable: null
+        js: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js'
+    backstretch:
+        enable: null
+        js: 'https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js'
+        position: cover
+        shuffle: true
+        duration: 10000
+        fade: 1500
+        images:
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/004.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/005.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/006.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/016.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/019.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/034.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/035.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/038.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/039.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/042.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/051.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.jpg'
+            - 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.jpg'
+    aplayer:
+        enable: null
+        js:
+            aplayer: 'https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js'
+            meting: 'https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js'
+        server: netease
+        type: playlist
+        id: 3175833810
+        fixed: false
+        theme: '#1BCDFC'
+        autoplay: false
+        order: list
+        loop: all
+        volume: 0.7
+        list_max_height: 320px
+        list_folded: true
+    pjax:
+        enable: true
+        cover: true
+        timeout: 5000
+        cacheBust: false
+        animation: false
+        banUrl: null
+    darkmodejs:
+        enable: true
+    killOldVersionsOfIE:
+        enable: true
+    killNoScript:
+        enable: true
+    artitalk:
+        appId: ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI
+        appKey: nHXLd3N3Jgh460t2iRQKWAtr
+    bbtalk:
+        js: 'https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js'
+        appId: 0KzOX4vC7Jsk6vzUGNeEiUaI-gzGzoHsz
+        appKey: HwCiWuxfpvKiLm4teCUgTIba
+        serverURLs: 'https://bbapi.heson10.com'
+    tidio:
+        enable: null
+        id: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+rightmenu:
+    enable: null
+    layout:
+        - home
+        - help
+        - examples
+        - contributors
+        - hr
+        - source_docs
+        - source_theme
+        - hr
+        - print
+        - hr
+        - dark_mode
+        - hr
+        - music
+    print:
+        name: 打印页面
+        icon: 'fa fa-print'
+        onclick: 'document.execCommand(''print'')'
+    help:
+        name: 常见问题
+        icon: 'fa fa-question'
+        url: 'https://volantis.js.org/faqs/'
+    examples:
+        name: 示例博客
+        icon: 'fa fa-rss'
+        url: 'https://volantis.js.org/examples/'
+    contributors:
+        name: 加入社区
+        icon: 'fa fa-fan fa-spin'
+        url: 'https://volantis.js.org/contributors/'
+    source_docs:
+        name: 本站源码
+        icon: 'fa fa-code-branch'
+        url: 'https://github.com/volantis-x/volantis-docs/'
+    source_theme:
+        name: 主题源码
+        icon: 'fa fa-code-branch'
+        url: 'https://github.com/volantis-x/hexo-theme-volantis/'
+    dark_mode:
+        name: 'Dark mode'
+        icon: 'fas fa-moon'
+        toggle: darkmode
+search:
+    enable: false
+    service: algolia
+    js: null
+    google:
+        apiKey: null
+        engineId: null
+    algolia:
+        applicationID: 
+        apiKey: 
+        indexName: 
+    azure:
+        serviceName: null
+        indexName: null
+        queryKey: null
+    baidu:
+        apiId: null
+color_scheme:
+    common:
+        theme: '#44D7B6'
+        link: '#2196f3'
+        button: '#44D7B6'
+        hover: '#ff5722'
+        inner: '#fff'
+        selection: 'alpha(#2196f3, 0.2)'
+    light:
+        site_bg: '#f4f4f4'
+        site_inner: '#fff'
+        site_footer: '#666'
+        card: '#fff'
+        text: '#444'
+        block: '#f6f6f6'
+        codeblock: '#FFF7EA'
+        inlinecode: '#c74f00'
+        h1: '#3a3a3a'
+        h2: '#3a3a3a'
+        h3: '#333'
+        h4: '#444'
+        h5: '#555'
+        h6: '#666'
+        p: '#444'
+        list: '#666'
+        list_hl: 'mix($color-theme, #000, 80)'
+        meta: '#888'
+    dark:
+        site_bg: '#222'
+        site_inner: '#eee'
+        site_footer: '#aaa'
+        card: '#333'
+        text: '#eee'
+        block: '#3a3a3a'
+        codeblock: '#343a3c'
+        inlinecode: '#D56D28'
+        h1: '#eee'
+        h2: '#eee'
+        h3: '#ddd'
+        h4: '#ddd'
+        h5: '#ddd'
+        h6: '#ddd'
+        p: '#bbb'
+        list: '#aaa'
+        list_hl: 'mix($color-theme, #fff, 80)'
+        meta: '#888'
+        brightness: 70%
+custom_css:
+    toc_smooth: true
+    cursor:
+        enable: null
+        text: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png'
+        pointer: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png'
+        default: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png'
+        not-allowed: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png'
+        zoom-out: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png'
+        zoom-in: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png'
+        grab: 'https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png'
+    font_smoothing: true
+    max_width: 100%
+    scrollbar:
+        size: 4px
+        border: 2px
+    navbar:
+        height: 64px
+        width: auto
+        effect:
+            - shadow
+            - blur
+    sidebar:
+        effect:
+            - shadow
+    body:
+        effect:
+            - shadow
+        highlight:
+            language: true
+            copy_btn: true
+            grayscale: false
+        text_align:
+            h1: left
+            h2: left
+            h3: left
+            h4: left
+            p: justify
+    gap:
+        h2: 48px
+        h3: 24px
+        h4: 16px
+        p: 1em
+        line_height: 1.6
+    border_radius:
+        card: 8px
+        codeblock: 4px
+        searchbar: 8px
+        button: 4px
+    fontsize:
+        root: 16px
+        h1: 1.5rem
+        h2: 1.5rem
+        h3: 1.25rem
+        h4: 1.125rem
+        h5: 1rem
+        h6: 1rem
+        list: .9375rem
+        meta: .875rem
+        code: .8125rem
+        footnote: .78125rem
+    fontfamily:
+        logofont:
+            fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+            name: 'Varela Round'
+            url: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf'
+            weight: normal
+            style: normal
+        bodyfont:
+            fontfamily: 'UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+            name: UbuntuMono
+            url: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf'
+            weight: normal
+            style: normal
+        codefont:
+            fontfamily: 'Menlo, UbuntuMono, Monaco'
+analytics:
+    busuanzi: null
+    leancloud:
+        app_id: u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
+        app_key: jfHtEKVE24j0IVCGHbvuFClp
+        custom_api_server: null
+seo:
+    use_tags_as_keywords: true
+    use_excerpt_as_description: true
+    robots:
+        home_first_page: 'index,follow'
+        home_other_pages: 'noindex,follow'
+        archive: 'noindex,follow'
+        category: 'noindex,follow'
+        tag: 'noindex,follow'
+new_post_name: blog/

@@ -1,0 +1,38 @@
+<% if (site.categories.length){ %>
+  <%- partial('_pre') %>
+  <section class="widget <%- item.class %> <%- page.widget_style %> <%- page.widget_platform %>">
+    <% if (page.path.split('/').length>1 && !page.path.startsWith('page/') && page.path!=='index.html'){ %>
+      <% item.header.title=page.path.split('/')[0] %>
+      <% item.header.url='/'+page.path.split('/')[0] %>
+      <%- partial('header', {item: item }) %>
+      <div class='content'>
+        <ul class="entry navigation">
+          <% 
+            site.categories.sort('path').each(function(category){ %>
+            <% if (category.path.split('/')[1]===page.path.split('/')[0]&&category.path.split('/').length>3){ %>
+                <li><a class="flat-box<%= category.path.split('/').length>4 ? ' child' : ''%>"
+                  title="<%- url_for(category.path) %>" href="<%- url_for(category.path) %>"
+                  id="<%= url_for(category.path).replace(/\/|%|\./g, "")?url_for(category.path).replace(/\/|%|\./g, ""):"home" %>"
+                  ><div class='name'><%- category.name %></div><div class='badge'>(<%- category.posts.length %>)</div></a></li>
+              <% }}) %>
+        </ul>
+      </div>
+    <% }else{ %>
+      <% item.header.title="订阅分类" %>
+      <% item.header.url='/' %>
+      <%- partial('header', {item: item}) %>
+      <div class='content'>
+        <ul class="entry navigation">
+          <% site.categories.sort('path').each(function(category){ %>
+            <% if(category.path.split('/').length<5){ %>
+            <li><a class="flat-box<%= category.parent ? ' child' : ''%>"
+              title="<%- url_for(category.path) %>" href="<%- url_for(category.path) %>"
+              id="<%= url_for(category.path).replace(/\/|%|\./g, "")?url_for(category.path).replace(/\/|%|\./g, ""):"home" %>"
+              ><div class='name'><%- category.name %></div><div class='badge'>(<%- category.posts.length %>)</div></a></li>
+            <% } %>
+          <% }) %>
+        </ul>
+      </div>
+    <% } %>
+  </section>
+<% } %>

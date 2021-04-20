@@ -1,0 +1,33 @@
+{
+  "name": "RSS-Reader",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm-run-all -s reader build",
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "reader": "hexo reader",
+    "debug": "hexo server -debug",
+    "dev": "npm run reader"
+  },
+  "hexo": {
+    "version": "5.4.0"
+  },
+  "dependencies": {
+    "hexo": "^5.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^2.0.0"
+  },
+  "devDependencies": {
+    "hexo-reader": "^1.1.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,17 @@
+- name: BARAN的小站🔥🔥🔥
+  host: https://cxvh.com # host 是必须的，入口文件
+  output: Baran/ # 输出目录，非必须
+  waittime: 500 # 链接请求间隔，默认 500，设置 0 无间隔容易出错
+  rule: # 规则非必须，以下为默认规则
+    content: $('#article-container') # 文章内容
+    title: $('[property="og:title"]').attr('content') # 标题
+    auther: $('[name="author"]').attr('content') # 作者
+    subtitle: $('[name="description"]').attr('content') # 描述
+    pubDate: $('[datetime].post-meta-date-created').attr('datetime') # 发布时间
+    tags: $('.post-meta__tag-list a') # 标签
+    categories: $('.post-meta-categories a') # 分类
+    cover: $('[property="og:image"]').attr('content') # 封面
+- name: butterfly主题
+  host: https://butterfly.js.org
+  output: butterfly/
+  waittime: 500 # 等待时间 + 等待时间 × 随机数(0-1)

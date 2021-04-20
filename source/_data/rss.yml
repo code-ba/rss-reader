@@ -1,0 +1,232 @@
+# - name: 博客
+#   categories: blog
+#   class: fas fa-rss fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 博客订阅
+#   list:
+#     - BARAN的小站🔥🔥🔥: https://rsshub.allapi.cc/hexo/butterfly/cxvh.com
+#     - 王垠博客: https://rsshub.allapi.cc/blogs/wangyin
+#     - 芝麻地: https://rsshub.allapi.cc/blogs/hedwig/zmd
+#     - PhrackMagazine: https://rsshub.allapi.cc/phrack
+#     - LeeMeng: https://rsshub.allapi.cc/leemeng
+#     - PaulGraham: https://rsshub.allapi.cc/blogs/paulgraham
+#     - 财新博客: https://rsshub.allapi.cc/caixin/blog/zhangwuchang
+#     - 大侠阿木: https://rsshub.allapi.cc/daxiaamu/home
+#     - 建宁闲谈: https://rsshub.allapi.cc/blogs/jianning
+#     - 敬维博客: https://rsshub.allapi.cc/blogs/jingwei.link
+#     - DIYgod的动森日记: https://rsshub.allapi.cc/blogs/diygod/animal-crossing
+#     - GoogleSites: https://rsshub.allapi.cc/google/sites/outlierseconomics
+#     - 阿里云系统组技术博客: https://rsshub.allapi.cc/aliyun-kernel/index
+#     - 每日安全: https://rsshub.allapi.cc/security/pulses
+#     - 美团技术团队: https://rsshub.allapi.cc/meituan/tech/home
+# - name: 新媒体
+#   categories: newmedia
+#   class: fas fa-podcast fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 新媒体
+#   list:
+#     - 币世界: https://rsshub.allapi.cc/bishijie/kuaixun
+#     - 不安全: https://rsshub.allapi.cc/buaq
+#     - 差评: https://rsshub.allapi.cc/chaping/banner
+#     - 城农: https://rsshub.allapi.cc/growincity/news
+#     - 丁香园-西安: https://rsshub.allapi.cc/dxy/vaccine/%E9%99%95%E8%A5%BF/%E8%A5%BF%E5%AE%89
+#     - 老司机: https://rsshub.allapi.cc/laosiji/feed
+# - name: 二次元
+#   categories: secondelement
+#   class: fas fa-heart fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 二次元
+#   list:
+#     - 1draw: https://rsshub.allapi.cc/1draw/
+#     - AcFun: https://rsshub.allapi.cc/acfun/bangumi/5022158
+#     - AGE动漫: https://rsshub.allapi.cc/agefans/detail/20190026
+#     - Animen动漫平台: https://rsshub.allapi.cc/anime1/anime/2018年秋季/哥布林殺手
+#     - bilibili: https://rsshub.allapi.cc/bilibili/bangumi/media/9192
+#     - 风车动漫: https://rsshub.allapi.cc/fzdm/manhua/2
+# - name: 音视频
+#   categories: video
+#   class: fas fa-film fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 音频视频
+#   list:
+    # - 猫眼电影-正在热映: https://rsshub.allapi.cc/maoyan/hot
+    # - 猫眼电影-即将上映: https://rsshub.allapi.cc/maoyan/upcoming
+    # - 优酷: https://rsshub.allapi.cc/youku/channel/UNTg3MTM3OTcy
+    # - 中国高清网: https://rsshub.allapi.cc/gaoqingla
+#     - 柠檬私房歌: https://rsshub.allapi.cc/ningmeng/song
+#     - 喜马拉雅: https://rsshub.allapi.cc/ximalaya/album/299146
+# - name: 图片
+#   categories: picture
+#   class: fas fa-puzzle-piece fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 图片
+#   list:
+#     - 百度趣画: https://rsshub.allapi.cc/baidu/doodles
+#     - Google 相册: https://rsshub.allapi.cc/google/album/msFFnAzKmQmWj76EA
+#     - CNU视觉联盟: https://rsshub.allapi.cc/cnu/selected
+#     - NASA每日一天文圖: https://rsshub.allapi.cc/nasa/apod-cn
+# - name: 设计
+#   categories: picture
+#   class: fas fa-magic fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 设计
+#   list:
+#     - 优设专题: https://rsshub.allapi.cc/uisdc/zt/design-history
+#     - UI 中国: https://rsshub.allapi.cc/ui-cn/article
+# - name: 编程
+#   categories: picture
+#   class: fas fa-code fa-fw
+#   icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+#   descript: 编程
+#   list:
+    # - 图灵奖获得者: https://rsshub.allapi.cc/acm/amturingaward
+    # - AlgoCasts: https://rsshub.allapi.cc/algocasts
+    # - dbaplus社群: https://rsshub.allapi.cc/dbaplus
+    # - GitChat: https://rsshub.allapi.cc/gitchat/newest
+    # - Gitea: https://rsshub.allapi.cc/gitea/blog
+    # - GitHub: https://rsshub.allapi.cc/github/repos/cxvh
+    # - GitLab: https://rsshub.allapi.cc/gitlab/explore/trending
+    # - Go语言中文网: https://rsshub.allapi.cc/go-weekly
+    # - HackerNews: https://rsshub.allapi.cc/hackernews/best/comments
+    # - HexRays: https://rsshub.allapi.cc/hex-rays/news
+    # - Competitions: https://rsshub.allapi.cc/kaggle/competitions
+    # - antgoldbloom: https://rsshub.allapi.cc/kaggle/user/antgoldbloom
+    # - LeetCode: https://rsshub.allapi.cc/leetcode/articles
+    # - LinuxPatchwork: https://rsshub.allapi.cc/patchwork.kernel.org/comments/10723629
+    # - NOSEC.org: https://rsshub.allapi.cc/nosec/hole
+    # - projectZero: https://rsshub.allapi.cc/project-zero-issues
+    # - reactNative: https://rsshub.allapi.cc/react/react-native-weekly
+    # - Scala: https://rsshub.allapi.cc/scala/blog/posts
+    # - segmentfault: https://rsshub.allapi.cc/segmentfault/user/yunqishequ_5aa899aad5395
+    # - TesterHome: https://rsshub.allapi.cc/testerhome/newest
+    # - VSCode插件: https://rsshub.allapi.cc/vscode/marketplace
+    # - wolley: https://rsshub.allapi.cc/wolley
+    # - 【阿里云】数据库内核月报: https://rsshub.allapi.cc/aliyun/database_month
+    # - 【阿里云】公告: https://rsshub.allapi.cc/aliyun/notice
+    # - 【安全客】最新漏洞: https://rsshub.allapi.cc/aqk/vul
+    # - 【安全客】分类订阅: https://rsshub.allapi.cc/aqk/week
+    # - 饿了么商家开放公告: https://rsshub.allapi.cc/eleme/open/announce
+    # - 极客时间专栏文章: https://rsshub.allapi.cc/geektime/column/48
+    # - 技术头条: https://rsshub.allapi.cc/blogread/newest
+    # - 【掘金】前端: https://rsshub.allapi.cc/juejin/category/frontend
+    # - 【掘金】架构: https://rsshub.allapi.cc/juejin/tag/架构
+    # - 【掘金】IOS: https://rsshub.allapi.cc/juejin/trending/ios/monthly
+    # - 【掘金】小册: https://rsshub.allapi.cc/juejin/books
+    # - 今天头条: https://rsshub.allapi.cc/toutiao/today
+    # - 开源中国: https://rsshub.allapi.cc/toutiao/user/140544
+    # - 洛谷近期比赛: https://rsshub.allapi.cc/luogu/contest
+    # - Go开源项目: https://rsshub.allapi.cc/mlog-club/projects
+    # - 码农周刊: https://rsshub.allapi.cc/manong-weekly
+    # - 美团开放平台: https://rsshub.allapi.cc/meituan/open/announce
+    # - 平安银河实验室: https://rsshub.allapi.cc/galaxylab
+    # - 顺丰丰桥开放平台公告: https://rsshub.allapi.cc/sf/sffq-announce
+    # - 【微信开放社区】小程序: https://rsshub.allapi.cc/wechat-open/community/xcx-announce
+    # - 【微信开放社区】小游戏: https://rsshub.allapi.cc/wechat-open/community/xyx-announce
+    # - 【微信开放社区】微信支付: https://rsshub.allapi.cc/wechat-open/community/pay-announce
+    # - 【微信支付】商户平台: https://rsshub.allapi.cc/wechat-open/pay/announce
+    # - 知晓程序: https://rsshub.allapi.cc/miniapp/article/cloud
+- name: 金融
+  categories: picture
+  class: fas fa-key fa-fw
+  icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+  descript: 金融
+  list:
+    # - 数据侠专栏: https://rsshub.allapi.cc/dtcj/datahero
+    # - 美股股票新闻: https://rsshub.allapi.cc/finviz/news/AAPL
+    # - 华尔街见闻旗下全球投资线上品牌: https://rsshub.allapi.cc/weexcn/news/1
+    # - 【财联社】电报: https://rsshub.allapi.cc/cls/telegraph
+    # - 【财联社】深度: https://rsshub.allapi.cc/cls/depth/1000
+    # - 格隆汇: https://rsshub.allapi.cc/gelonghui/user/5273
+    # - 金十数据: https://rsshub.allapi.cc/jinshi/index
+    # - 【每经网】要闻: https://rsshub.allapi.cc/nbd
+    # - 【每经网】重磅原创: https://rsshub.allapi.cc/nbd/daily
+    # - 世界经济论坛: https://rsshub.allapi.cc/weforum/report
+    # - 淘股吧股票论坛: https://rsshub.allapi.cc/taoguba/user/252069
+    # - 新浪财经: https://rsshub.allapi.cc/sina/finance
+    # - 雪球: https://rsshub.allapi.cc/xueqiu/user/8152922548
+    # - 证券时报网: https://rsshub.allapi.cc/stcn/news
+    - 中证网: https://rsshub.allapi.cc/cs/news/zzkx
+- name: 社交媒体
+  categories: picture
+  class: fas fa-users fa-fw
+  icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+  descript: 社交媒体
+  list:
+    - 755: https://rsshub.allapi.cc/755/user/akimoto-manatsu
+    - 【bilibili】番剧: https://rsshub.allapi.cc/bilibili/bangumi/media/9192
+    - 【bilibili】排行榜: https://rsshub.allapi.cc/bilibili/ranking/0/3/1
+    - 【bilibili】直播公告: https://rsshub.allapi.cc/bilibili/link/news/live
+    - 大众点评: https://rsshub.allapi.cc/dianping/user/35185271
+    - 【豆瓣】正在上映: https://rsshub.allapi.cc/douban/movie/playing
+    - 【豆瓣】北美票房榜: https://rsshub.allapi.cc/douban/movie/ustop
+    - 【豆瓣】一周口碑榜: https://rsshub.allapi.cc/douban/movie/weekly
+    - 【豆瓣】最新增加音乐: https://rsshub.allapi.cc/douban/music/latest/chinese
+    - 【豆瓣】热门同城活动: https://rsshub.allapi.cc/douban/event/hot/118172
+    - 【豆瓣】豆瓣书店: https://rsshub.allapi.cc/douban/bookstore
+    - 【豆瓣】热门图书排行: https://rsshub.allapi.cc/douban/book/rank/fiction
+    - 方格子: https://rsshub.allapi.cc/vocus/publication/bass
+    - 即刻: https://rsshub.allapi.cc/jike/topic/556688fae4b00c57d9dd46ee
+    - 简书: https://rsshub.allapi.cc/jianshu/home
+    - 美拍: https://rsshub.allapi.cc/meipai/user/56537299
+    - 数字尾巴: https://rsshub.allapi.cc/dgtle/whale/rank/download/day
+    - 微博热搜榜: https://rsshub.allapi.cc/weibo/search/hot
+    - 知乎专栏: https://rsshub.allapi.cc/zhihu/zhuanlan/googledevelopers
+    - 知乎日报: https://rsshub.allapi.cc/zhihu/daily
+    - 知乎想法热榜: https://rsshub.allapi.cc//zhihu/pin/hotlist
+- name: 阅读
+  categories: picture
+  class: fas fa-book fa-fw
+  icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+  descript: 阅读
+  list:
+    - AllPoetry: https://rsshub.allapi.cc/allpoetry/newest
+    - SoBooks: https://rsshub.allapi.cc/sobooks
+    - UU看书: https://rsshub.allapi.cc/novel/uukanshu/49621
+    - 爱思想: https://rsshub.allapi.cc/aisixiang/ranking/1/7
+    - 爱下电子书: https://rsshub.allapi.cc/axdzs/191/191976
+    - 博客来: https://rsshub.allapi.cc/bookscomtw/newbooks/books_nbtopm_15
+    - 归档: https://rsshub.allapi.cc/sobooks/date/2020-11
+    - 禁忌书屋: https://rsshub.allapi.cc/cool18/bbs4
+    - 孔夫子旧书网: https://rsshub.allapi.cc/kongfz/shop/238901/1
+    - 飘天文学: https://rsshub.allapi.cc/novel/ptwxz/10/10272
+    - 起点: https://rsshub.allapi.cc/qidian/free
+    - 青空文庫新着リスト: https://rsshub.allapi.cc/aozora/newbook/10
+    - 轻小说文库: https://rsshub.allapi.cc/wenku8/chapter/74
+    - 生物谷: https://rsshub.allapi.cc/shengwugu/biology
+    - 书趣阁: https://rsshub.allapi.cc/novel/shuquge/8659
+    - 虛詞: https://rsshub.allapi.cc/p-articles/section/critics-art
+    - 纵横: https://rsshub.allapi.cc/zongheng/chapter/672340
+    - 左岸读书: https://rsshub.allapi.cc/zreading
+- name: 学习
+  categories: picture
+  class: fas fa-graduation-cap fa-fw
+  icon: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.png
+  descript: 学习
+  list:
+    - 【Mind42】分类: https://rsshub.allapi.cc/mind42
+    - 【Mind42】标签: https://rsshub.allapi.cc/mind42/tag/online
+    - NEEA国家教育考试: https://rsshub.allapi.cc/neea/gaokao
+    - NEEA社会证书考试: https://rsshub.allapi.cc/neea/cet
+    - ProcessOn: https://rsshub.allapi.cc/processon/popular
+    - XMind: https://rsshub.allapi.cc/xmind/mindmap
+    - zhimap思维导图社区: https://rsshub.allapi.cc/jijitang/publication
+    - 【唧唧堂】论文: https://rsshub.allapi.cc/jijitang/publication
+    - 【唧唧堂】文档: https://rsshub.allapi.cc/jijitang/article/latest
+    - 金山词霸: https://rsshub.allapi.cc/iciba/7/poster
+    - 码农周刊: https://rsshub.allapi.cc/manong-weekly
+    - 幕布精选: https://rsshub.allapi.cc/mubu/explore/16/读书笔记
+    - 扇贝: https://rsshub.allapi.cc/shanbay/footprints
+    - 思维导图社区: https://rsshub.allapi.cc/edrawsoft/mindmap/1/PV/DESC/CN/1
+    - 搜韵网: https://rsshub.allapi.cc/souyun/today
+    - 网易精品课: https://rsshub.allapi.cc/open163/vip
+    - 网易最新课: https://rsshub.allapi.cc/open163/latest
+    - 下厨房: https://rsshub.allapi.cc/xiachufang/user/cooked/103309404
+    - 学堂在线: https://rsshub.allapi.cc/xuetangx/course/list/0/1/0
+    - 阳光高考: https://rsshub.allapi.cc/chsi/zszcgd
+    - 印象剪藏: https://rsshub.allapi.cc/yinxiang/note
+    - 有道云笔记: https://rsshub.allapi.cc/youdao/xueba
+    - 有道云笔记最新动态: https://rsshub.allapi.cc/youdao/latest
+    - 【知識分子】新聞: https://rsshub.allapi.cc/zhishifenzi/news/ai
+    - 【知識分子】深度: https://rsshub.allapi.cc/zhishifenzi/depth
+    - 【知識分子】创新: https://rsshub.allapi.cc/zhishifenzi/innovation/company
+    - 中国大学MOOC: https://rsshub.allapi.cc/icourse163/newest

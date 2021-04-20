@@ -1,0 +1,44 @@
+-
+    icon: 'fas fa-rss fa-fw'
+    name: 博客
+    url: /博客
+-
+    icon: 'fas fa-podcast fa-fw'
+    name: 新媒体
+    url: /新媒体
+-
+    icon: 'fas fa-heart fa-fw'
+    name: 二次元
+    url: /二次元
+-
+    icon: 'fas fa-film fa-fw'
+    name: 音视频
+    url: /音视频
+-
+    icon: 'fas fa-puzzle-piece fa-fw'
+    name: 图片
+    url: /图片
+-
+    icon: 'fas fa-magic fa-fw'
+    name: 设计
+    url: /设计
+-
+    icon: 'fas fa-code fa-fw'
+    name: 编程
+    url: /编程
+-
+    icon: 'fas fa-key fa-fw'
+    name: 金融
+    url: /金融
+-
+    icon: 'fas fa-users fa-fw'
+    name: 社交媒体
+    url: /社交媒体
+-
+    icon: 'fas fa-book fa-fw'
+    name: 阅读
+    url: /阅读
+-
+    icon: 'fas fa-graduation-cap fa-fw'
+    name: 学习
+    url: /学习
