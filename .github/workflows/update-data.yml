@@ -1,14 +1,14 @@
-name: 每天自动同步仓库
+name: 每周自动同步仓库
 on:
   schedule:
-    #- cron: '*/30 * * * *'
-    - cron: '0 19 * * *'
+    #- cron: '*/30 * * * *' # 每 30 分钟更新一次
+    - cron: '0 19 */7 * *' # 应该时每 7 天的 19 时 0 分更新
   workflow_dispatch:
 jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
-    - name: Copycat
+    - name: 同步到当前仓库
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
