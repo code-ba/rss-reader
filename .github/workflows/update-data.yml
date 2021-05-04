@@ -1,11 +1,9 @@
-name: Copy
-
+name: 每天自动同步仓库
 on:
   schedule:
     #- cron: '*/30 * * * *'
-    - cron: '* * 1 * *'
+    - cron: '0 19 * * *'
   workflow_dispatch:
-
 jobs:
   copy:
     runs-on: ubuntu-latest
