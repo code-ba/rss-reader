@@ -1,0 +1,34 @@
+name: Copy
+
+on:
+  schedule:
+    #- cron: '*/30 * * * *'
+    - cron: '* * 1 * *'
+  workflow_dispatch:
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copycat
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        # src_path: 改成来源仓库的要拷贝的路径，根目录则填/.
+        # dst_path: 改成目标仓库的拷贝位置，以斜杠结尾。这里需要填写斜杠非主页仓库名斜杠
+        # dst_owner: 改成目标仓库所在的用户名
+        # dst_repo_name: 改成目标仓库名（也就是用户名点github点io）
+        # dst_branch: 改成目标仓库的分支名
+        # src_branch: 改成来源仓库的分支名
+        # clean: true # 这里要保证目标目录先清空，否则非主页仓库若有删除文件就不会同步到主页仓库
+        # username: 改成操作的用户名
+        # email: 改成操作用户的邮箱
+        src_path: /.
+        dst_path: /
+        dst_owner: code-ba
+        dst_repo_name: rss-reader
+        dst_branch: main
+        src_branch: main
+        clean: true # 这里要保证目标目录先清空，否则非主页仓库若有删除文件就不会同步到主页仓库
+        username: cxvh
+        email: ${{ secrets.PERSONAL_EMAIL }}
