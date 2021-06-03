@@ -114,7 +114,7 @@ reader:
   rss:
     enable: true
     # path: source/_data/rss.yml
-    path: https://cdn.jsdelivr.net/gh/cxvh/cxvh@v0.0.1/yml/rss.yml # 配置 url
+    path: https://cdn.jsdelivr.net/gh/cxvh/cxvh@main/yml/rss.yml # 配置 url
   menu:
     path: source/_data/menu.yml
     icon: icon # 指定图标name
